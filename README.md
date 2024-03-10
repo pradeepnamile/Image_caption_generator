@@ -1,7 +1,7 @@
 # Image Caption Generator
 
 ### What is Image to Caption Generator?
-Image caption generator is a process of recognizing the context of an image and annotating it with relevant captions using deep learning and computer vision. It includes labeling an image with English keywords with the help of datasets provided during model training. The imagenet dataset trains the CNN model called Xception. Xception is responsible for image feature extraction. These extracted features will be fed to the LSTM model, which generates the image caption.
+Image caption generator is a process of recognizing the context of an image and annotating it with relevant captions using deep learning and computer vision. It includes labeling an image with English keywords with the help of datasets provided during model training. CNN is responsible for image feature extraction. These extracted features will be fed to the LSTM model, which generates the image caption.
 ### What is CNN?
 CNN is a subfield of Deep learning and specialized deep neural networks used to recognize and classify images. It processes the data represented as 2D matrix-like images. CNN can deal with scaled, translated, and rotated imagery. It analyzes the visual imagery by scanning them from left to right and top to bottom and extracting relevant features. Finally, it combines all the parts for image classification.
 ### What is LSTM?
