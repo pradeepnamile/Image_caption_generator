@@ -8,7 +8,7 @@ CNN is a subfield of Deep learning and specialized deep neural networks used to 
 Being a type of RNN (recurrent neural network), LSTM (Long short-term memory) is capable of working with sequence prediction problems. It is mostly used for the next word prediction purposes, as in Google search our system is showing the next word based on the previous text. Throughout the processing of inputs, LSTM is used to carry out the relevant information and to discard non-relevant information.
 * To build an image caption generator model we have to merge CNN with LSTM. We can drive that:
 * Image Caption Generator Model (CNN-RNN model) = CNN + LSTM
-* CNN – To extract features from the image. A pre-trained model called Xception is used for this.
+* CNN – To extract features from the image. A pre-trained model called VGG16 is used for this.
 * LSTM – To generate a description from the extracted information of the image.
 ### Dataset for Image Caption Generator
 The Flickr_8K dataset represents the model training of image caption generators. The dataset is downloaded directly from the below links. The downloading process takes some time due to the dataset’s large size(1GB). In the image below, you can check all the files in the Flickr_8k_text folder. The most important file is Flickr 8k.token, which stores all the image names with captions. 8091 images are stored inside the Flicker8k_Dataset folder and the text files with captions of images are stored in the Flickr_8k_text folder.
